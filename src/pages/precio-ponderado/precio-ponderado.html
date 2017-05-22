@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button></button>
+    </ion-buttons>
+    <ion-title>
+      Precio Ponderado
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <form id="precioPonderado-form1">
+    <ion-item id="precioPonderado-input1">
+      <ion-label>
+        Precio
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="precioPonderado-input2">
+      <ion-label>
+        Cantidad
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="precioPonderado-select1">
+      <ion-label>
+        Unidades
+      </ion-label>
+      <ion-select name="selectUnit">
+        <ion-option>
+          gramos (gr)
+        </ion-option>
+        <ion-option>
+          mililitros (ml)
+        </ion-option>
+        <ion-option>
+          unidades
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="precioPonderado-textarea1">
+      <ion-label>
+        Resultado
+      </ion-label>
+      <ion-textarea placeholder=""></ion-textarea>
+    </ion-item>
+  </form>
+  <button id="precioPonderado-button1" ion-button color="positive" block>
+    Calcular
+  </button>
+</ion-content>
